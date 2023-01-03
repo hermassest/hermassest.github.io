@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Have you ever wondered how to combine multiple Raspberry Pi boards into one single super computer. In this post I will guide you step by step to accomplish the above goal.
@@ -37,5 +37,3 @@ $ ssh username@ip address
 ```
 Then accept the RSA footprint for the first time, then type the default password `raspberry`
 - Elevate your credential to root, `sudo -i`, then type the password.
-
-
