@@ -28,7 +28,9 @@ First of all, you need to write a Raspbian OS image on **micro-SD** card, and an
 - Wait couple seconds, until the boot process finishes, check for connectivity by typing this command:
 `$ ping <ip address> -t` On windows, or `ping -c5 <ip address>` in Linux terminal.
 - Woo-hoo! You are almost done, now it is time to connect to our lovely Pi via secure shell, type the following command:
-`$ ssh <username>@<ip address>`
+```
+$ ssh <username>@<ip address>
+```
 Then accept the RSA footprint for the first time, then type the default password `raspberry`
 - Elevate your credential to root, `sudo -i`, then type the password.
 
