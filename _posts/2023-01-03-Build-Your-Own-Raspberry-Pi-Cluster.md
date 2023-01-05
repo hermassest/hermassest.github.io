@@ -37,3 +37,12 @@ $ ssh username@ip address
 ```
 Then accept the RSA footprint for the first time, then type the default password `raspberry`
 - Elevate your credential to root, `sudo -i`, then type the password.
+ 
+Now we will install kubernatese, it is a container orchestration program that will help us in this blog.
+
+So let's get started
+
+- Install kubernatese via:
+```
+$ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
+```
