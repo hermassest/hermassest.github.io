@@ -63,5 +63,8 @@ _Repeat the steps above if you have multiple raspberry pies._
 ```
 cat /var/lib/rancher/k3s/server/node_token
 ```
-
+- Now to regester or pi boards use the command bellow
+```
+$ curl -sfL - https://get.k3s.io | K3S_TOKEN="<your master token>" K3S_URL="https://<your server>:6443"
+```
 
