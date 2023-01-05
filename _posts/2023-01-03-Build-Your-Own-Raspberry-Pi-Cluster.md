@@ -46,6 +46,8 @@ So let's get started
 
 $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
 
+
+## Adding some nodes to obay the master.
 Now we will get the status of our raspberrys and  add multiple raspberry pies to serve our master machine.
 
 - Get the status of the raspberry pies via:
@@ -53,4 +55,10 @@ Now we will get the status of our raspberrys and  add multiple raspberry pies to
 $ kubectl get nodes
 ```
 
-> the meaning of node in this situation is our raspberry pis
+> the meaning of node in our situation is our raspberry pies.
+
+- To add a raspberry pi to serve we need the master token via:
+```
+cat /var/lib/rancher/k3s/server/node_token
+```
+
