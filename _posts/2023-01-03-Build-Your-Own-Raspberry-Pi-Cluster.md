@@ -50,3 +50,5 @@ $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s-
 ```
 $ kubectl get nodes
 ```
+
+> the meaning of node in this situation is any 
