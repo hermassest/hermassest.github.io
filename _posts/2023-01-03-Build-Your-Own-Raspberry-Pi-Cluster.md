@@ -47,7 +47,7 @@ So let's get started
 $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
 ```
 
-## Adding some nodes to obay the master.
+### Adding some nodes to obay the master.
 Now we will get the status of our raspberrys and  add multiple raspberry pies to serve our master machine.
 
 - Get the status of the raspberry pies via:
@@ -57,7 +57,7 @@ $ kubectl get nodes
 
 > the meaning of node in our situation is our raspberry pies.
 
-_Repeat the steps above if you have multiple raspberry pies._
+_Repeat the steps above if you have multiple raspberry pies in defrent terminals for each pi board._
 
 - To add a raspberry pi to serve, we need the master token via:
 ```
@@ -65,6 +65,12 @@ cat /var/lib/rancher/k3s/server/node_token
 ```
 - Now to regester our pi boards use the command bellow
 ```
-$ curl -sfL - https://get.k3s.io | K3S_TOKEN="<your master token>" K3S_URL="https://<your server>:6443"
+$ curl -sfL - https://get.k3s.io | K3S_TOKEN="<your master token>" K3S_URL="https://<your master ip>:6443 K3S_NODE_NAME="<servername> sh -"
+```
+### Instaling rancher (optional but recomended).
+In this section se will install rancher for visualized configuration.
+
+- Installing rancher via:
 ```
 
+```
