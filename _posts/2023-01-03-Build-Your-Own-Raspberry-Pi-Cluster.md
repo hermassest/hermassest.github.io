@@ -43,9 +43,9 @@ Now we will install kubernatese, it is a container orchestration program that wi
 So let's get started
 
 - Install kubernatese via:
-
+```
 $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
-
+```
 
 ## Adding some nodes to obay the master.
 Now we will get the status of our raspberrys and  add multiple raspberry pies to serve our master machine.
@@ -61,4 +61,5 @@ $ kubectl get nodes
 ```
 cat /var/lib/rancher/k3s/server/node_token
 ```
+- Now repeat the steps above if you have multple raspberry pies.
 
