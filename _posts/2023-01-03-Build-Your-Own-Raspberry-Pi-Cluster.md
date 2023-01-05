@@ -46,9 +46,11 @@ So let's get started
 
 $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
 
-- Get the status of the raspberry pi via:
+Now we will get the status of our raspberrys and  add multiple raspberry pies to serve our master machine.
+
+- Get the status of the raspberry pies via:
 ```
 $ kubectl get nodes
 ```
 
-> the meaning of node in this situation is any 
+> the meaning of node in this situation is our raspberry pis
