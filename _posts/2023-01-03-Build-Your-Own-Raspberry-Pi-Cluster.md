@@ -57,9 +57,11 @@ $ kubectl get nodes
 
 > the meaning of node in our situation is our raspberry pies.
 
-- To add a raspberry pi to serve we need the master token via:
+_Repeat the steps above if you have multiple raspberry pies._
+
+- To add a raspberry pi to serve, we need the master token via:
 ```
 cat /var/lib/rancher/k3s/server/node_token
 ```
-- Now repeat the steps above if you have multple raspberry pies.
+
 
