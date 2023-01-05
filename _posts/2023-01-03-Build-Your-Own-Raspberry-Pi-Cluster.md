@@ -29,7 +29,7 @@ First of all, you need to write a Raspbian OS image on **micro-SD** card, and an
 - Unplug the micro-SD from your computer, and plug it back to the Raspberry Pi adapter, then connect your Ethernet, the power the board.
 - Wait couple seconds, until the boot process finishes, check for connectivity by typing this command:
 ```
-ping -c5 x.x.x.x
+$ ping -c5 x.x.x.x
 ```
 - Woo-hoo! You are almost done, now it is time to connect to our lovely Pi via secure shell, type the following command:
 ```
@@ -43,6 +43,10 @@ Now we will install kubernatese, it is a container orchestration program that wi
 So let's get started
 
 - Install kubernatese via:
-```
+
 $ curl -sfL https://get.k3s.io | k3s_KUBECONFIG_MODE="644" sh -s- 
+
+- Get the status of the raspberry pi via:
+```
+$ kubectl get nodes
 ```
