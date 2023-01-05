@@ -72,3 +72,18 @@ In this section se will install rancher for visualized configuration.
 
 - First you need a virtual machine appart from the pi boards you have, so intialise a vertual inviroment via any virtual machine programm (_recomended softwere: ubentu 18.04 4GB_).
 -use the scure shell via terminal to log to the vertual machine, then elevate your credential to root.
+- So now you need to make tow directorys via the command bellow:
+```
+$ mkdir /etc/rancher
+$ mkdir /etc/rancher/rke2
+```
+- Switch to the directory rke2 and make a file:
+```
+nano config.yaml
+```
+- Append to the file the following:
+`
+token: <personal token>
+tls-san:
+  - <ip of the server that you are currently in>
+`
