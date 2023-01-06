@@ -117,4 +117,4 @@ $ rancherd reset-admin
 - Access the rancher by taking the ip given by the last command into any search engine.
 - Enter the default username and password.
 - When the next page showes, eset the password.
-- Before clicking continue make sure you select the first option bellow the reset panel, so  can edit your cluster.
+- Before clicking continue make sure you select the first option bellow the reset panel, so you can edit your cluster.
