@@ -80,14 +80,14 @@ $ mkdir /etc/rancher/rke2
 ```
 - Switch to the directory rke2 and make a file:
 ```
-nano config.yaml
+$ nano config.yaml
 ```
 - Append to the file the following:
 
 ```
-token: <personal token>
-tls-san:
-  - <ip of the server you are currently in>
+1. token: <personal token>
+2. tls-san:
+3.   - <ip of the server you are currently in>
 ```
 - Now, you will install rancher via the following command:
 
