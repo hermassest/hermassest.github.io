@@ -89,3 +89,8 @@ token: <personal token>
 tls-san:
   - <ip of the server you are currently in>
 ```
+- Now, you will install rancher via the following command:
+
+```
+$ curl -sfL https://get.rancher.io | sh -
+```
