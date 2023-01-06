@@ -83,14 +83,12 @@ $ mkdir /etc/rancher/rke2
 $ nano config.yaml
 ```
 - Append to the file the following:
-
 ```
 1. token: <personal token>
 2. tls-san:
 3.   - <ip of the server you are currently in>
 ```
 - Now, you will install rancher via the following command:
-
 ```
 $ curl -sfL https://get.rancher.io | sh -
 ```
@@ -98,4 +96,9 @@ $ curl -sfL https://get.rancher.io | sh -
 - You will enable the rancher service via:
 ```
 $ systemctl enable rancherd-server.service
+```
+
+- Enter the following command to start the srvice:
+```
+$ systemctl start rancherd-server.service
 ```
