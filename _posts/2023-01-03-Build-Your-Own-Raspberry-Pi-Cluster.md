@@ -87,5 +87,5 @@ nano config.yaml
 ```
 token: <personal token>
 tls-san:
-  - <ip of the server that you are currently in>
+  - <ip of the server you are currently in>
 ```
