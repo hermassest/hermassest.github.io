@@ -73,7 +73,7 @@ In this section se will install rancher for visualized configuration.
 - First you need a virtual machine appart from the pi boards you have, so intialise a vertual inviroment via any virtual machine programm (_recomended softwere: ubentu 18.04 4GB_).
 
 - Use the scure shell via terminal to log to the vertual machine, then elevate your credential to root.
-- So now you need to make tow directorys via the command bellow:
+- So now you need to make two directoris vie the command bellow:
 ```
 $ mkdir /etc/rancher
 $ mkdir /etc/rancher/rke2
@@ -107,4 +107,12 @@ $ systemctl start rancherd-server.service
 ```
 $ jurnalctl -eu rancherd-service -f
 ```
-> If you want to stop monitoring or any process press `ctrl + C `.
+> If you want to stop monitoring or any process press `ctrl + C `
+
+- Reset the admin passowrd with the command bellow:
+```
+$ rancherd reset-admin
+```
+
+- Access the rancher by taking the ip given by the last command into any search engine.
+-The default admin and passowrd are showen in the previos command.
