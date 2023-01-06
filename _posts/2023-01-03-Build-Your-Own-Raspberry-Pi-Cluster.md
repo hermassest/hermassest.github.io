@@ -94,3 +94,8 @@ tls-san:
 ```
 $ curl -sfL https://get.rancher.io | sh -
 ```
+
+- You will enable the rancher service via:
+```
+$ systemctl enable rancherd-server.service
+```
