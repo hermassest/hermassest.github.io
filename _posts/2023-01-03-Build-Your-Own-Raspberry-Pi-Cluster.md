@@ -38,6 +38,8 @@ $ ssh username@ip address
 Then accept the RSA footprint for the first time, then type the default password `raspberry`
 - Elevate your credential to root, `sudo -i`, then type the password.
  
+ ### Installing kubernitese
+ 
 Now we will install kubernatese, it is a container orchestration program that will help us in this post.
 
 So let's get started
@@ -118,3 +120,7 @@ $ rancherd reset-admin
 - Enter the default username and password.
 - When the next page showes, eset the password.
 - Before clicking continue make sure you select the first option bellow the reset panel, so you can edit your cluster.
+- Agree on terms and conditions, then click continue.
+- Then when the new window pop-up save the ip by clicking `save`.
+
+### Adding your raspberry pies to our virtual server
