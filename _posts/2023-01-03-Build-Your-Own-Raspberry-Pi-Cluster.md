@@ -109,7 +109,7 @@ $ jurnalctl -eu rancherd-service -f
 ```
 > If you want to stop monitoring or any process press `ctrl + C `
 
-- Reset the admin passowrd with the command bellow:
+- View the admin and password with the command bellow:
 ```
 $ rancherd reset-admin
 ```
