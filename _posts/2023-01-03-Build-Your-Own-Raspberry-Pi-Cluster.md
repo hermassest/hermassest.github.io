@@ -102,3 +102,9 @@ $ systemctl enable rancherd-server.service
 ```
 $ systemctl start rancherd-server.service
 ```
+
+- So now, you will monitor what is happening via the following command:
+```
+$ jurnalctl -eu rancherd-service -f
+```
+> If you want to stop monitoring or any process press `ctrl + C `.
