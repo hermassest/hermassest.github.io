@@ -71,6 +71,7 @@ $ curl -sfL - https://get.k3s.io | K3S_TOKEN="<your master token>" K3S_URL="http
 In this section se will install rancher for visualized configuration.
 
 - First you need a virtual machine appart from the pi boards you have, so intialise a vertual inviroment via any virtual machine programm (_recomended softwere: ubentu 18.04 4GB_).
+
 -use the scure shell via terminal to log to the vertual machine, then elevate your credential to root.
 - So now you need to make tow directorys via the command bellow:
 ```
