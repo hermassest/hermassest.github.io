@@ -118,9 +118,12 @@ $ rancherd reset-admin
 
 - Access the rancher by taking the ip given by the last command into any search engine.
 - Enter the default username and password.
-- When the next page showes, eset the password.
-- Before clicking continue make sure you select the first option bellow the reset panel, so you can edit your cluster.
+- When the next page showes, reset the password.
+- Before clicking continue make sure you select the first option bellow the reset panel, so you can edit your clusters.
 - Agree on terms and conditions, then click continue.
 - Then when the new window pop-up save the ip by clicking `save`.
 
 ### Adding your raspberry pies to our virtual server.
+
+- Click on the `add cluster` button.
+- Now choose the `other` button.
