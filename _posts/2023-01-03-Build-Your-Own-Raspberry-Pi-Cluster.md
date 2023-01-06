@@ -123,4 +123,4 @@ $ rancherd reset-admin
 - Agree on terms and conditions, then click continue.
 - Then when the new window pop-up save the ip by clicking `save`.
 
-### Adding your raspberry pies to our virtual server
+### Adding your raspberry pies to our virtual server.
