@@ -83,8 +83,8 @@ $ mkdir /etc/rancher/rke2
 nano config.yaml
 ```
 - Append to the file the following:
-`
+```
 token: <personal token>
 tls-san:
   - <ip of the server that you are currently in>
-`
+```
