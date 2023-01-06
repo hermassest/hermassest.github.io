@@ -109,10 +109,12 @@ $ jurnalctl -eu rancherd-service -f
 ```
 > If you want to stop monitoring or any process press `ctrl + C `
 
-- View the admin and password with the command bellow:
+- You will reset the password of rancher, so you need the default username and password with the following command:
 ```
 $ rancherd reset-admin
 ```
 
 - Access the rancher by taking the ip given by the last command into any search engine.
--The default admin and passowrd are showen in the previos command.
+- Enter the default username and password.
+- When the next page showes,reset the password.
+- Before clicking continue make sure you select the first option bellow the reset panel, you can edit your cluster.
