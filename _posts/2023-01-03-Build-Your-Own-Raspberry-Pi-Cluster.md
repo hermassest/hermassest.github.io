@@ -211,6 +211,5 @@ Here, we will use ingress, which is a DNS that will point to an application on y
 ```
 - Save and close.
 
-# CONGRATUALTIONS!! Your Server Is Compleated!!
-
+## _CONGRATUALTIONS, Your Server Is Compleated!!_
 > Please share with your family and friends!
