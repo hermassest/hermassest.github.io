@@ -150,7 +150,7 @@ In this step you will install your first applicaton on your raspberry pi cluster
 
 - Then apply the manifest fiel by the command bellow:
 ```
-kubectl apply -f <filename>.yaml
+$ kubectl apply -f <filename>.yaml
 ```
 - To view the status of your application use the following command:
 ```
@@ -160,7 +160,7 @@ kubectl get pods
 
 - view wich raspberry pi is on via:
 ```
-kubectl get pods -o wide
+$ kubectl get nodes -o wide
 ```
 
 Now if you have just installed your first application on your cluster, ok, but if you want to access it you can't.
@@ -184,3 +184,19 @@ spec:
   	targetport: web
   	nodeport: 31111
 ```
+- Apply all of that stuff via:
+```
+$ kubectl apply -f <filename>.yaml
+```
+- You could show the services via:
+```
+$ kubectl get services
+```
+
+- Keep going!! You are almost done!!!
+ 
+ ### Low balancing
+You now, it is clear from the title.
+You will low balance apps between our cluster.
+
+- You need to deploy another app by a manifest file
