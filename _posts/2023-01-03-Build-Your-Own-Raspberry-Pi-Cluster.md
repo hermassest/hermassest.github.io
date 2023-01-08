@@ -152,3 +152,8 @@ In this step you will install your first applicaton on your raspberry pi cluster
 ```
 kubectl apply -f <filename>.yaml
 ```
+- To view the status of your application use the following command:
+```
+kubectl get pods
+```
+> A pod is a [container](https://www.docker.com/resources/what-container/)
