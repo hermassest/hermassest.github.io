@@ -57,7 +57,7 @@ Now we will get the status of our raspberrys and  add multiple raspberry pies to
 $ kubectl get nodes
 ```
 
-> the meaning of node in our situation is our raspberry pies.
+> the meaning of node is any hardwere containing softwere.
 
 _Repeat the steps above if you have multiple raspberry pies in defrent terminals for each pi board._
 
