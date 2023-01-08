@@ -193,11 +193,24 @@ $ kubectl apply -f <filename>.yaml
 $ kubectl get services
 ```
 
-- Keep going!! You are almost done!!!
+- Keep going, You are almost done!!!
  
- ### Low balancing.
- 
-You now, it is clear from the title.
-You will low balance apps between your cluster.
+### Using ingress with rancher.
+Here, we will use ingress, which is a DNS that will point to an application on your server
 
-- You need to deploy another app by a manifest file.
+- Go to your rancher page, then click on `ngresses`
+- Click `create` then put the DNS you want in the `request host` inputbox.
+- Put a `/` in the second input box.
+- Choose the node you want to point to in the third drop down menu.
+- Select the port from the last dropdown menu.
+- Click on save.
+-Search for a file called `posts`.
+- Scroll till the end and add the following:
+```
+<the ip of any node> <your DNS >
+```
+- Save and close.
+
+
+
+# CONGRATULATIONS!! Your Server Is Compleated!!
