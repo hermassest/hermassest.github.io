@@ -147,4 +147,5 @@ In this step you will install your first applicaton on your raspberry pi cluster
 - First thing first, go to the master node's terminal.
 - Now you need a `manifest` file that describes the application you want to install.
 
-> if you want to learn more visit `https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4`
+> if you want to learn more visit:
+`https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4`
