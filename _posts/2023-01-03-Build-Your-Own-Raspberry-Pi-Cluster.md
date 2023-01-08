@@ -132,7 +132,11 @@ $ rancherd reset-admin
 - Now the clusters page should show.
 
 - Click on the little dots on the left side of your cluster, then click on `show API`.
-- Click on edit, and paste the following into the `agentImageOverride`
+- Click on `edit`, and paste the following into the `agentImageOverride`
 ```
 rancher/rancher-agent:v2.5.8-linux-arm64
 ```
+- Scroll till the end and click the `show request` button, scroll till the end and click `send request`.
+- Then click on `close` and close this tab.
+- Click on `explore` on the left of your cluster.
+- Woo-hoo! your server is added to the vertual machine
