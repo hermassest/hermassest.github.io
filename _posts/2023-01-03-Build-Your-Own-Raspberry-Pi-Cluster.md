@@ -38,7 +38,7 @@ $ ssh username@ip address
 Then accept the RSA footprint for the first time, then type the default password `raspberry`
 - Elevate your credential to root, `sudo -i`, then type the password.
  
- ### Installing kubernitese.
+### Installing kubernitese.
  
 Now we will install kubernatese, it is a container orchestration program that will help us in this post.
 
