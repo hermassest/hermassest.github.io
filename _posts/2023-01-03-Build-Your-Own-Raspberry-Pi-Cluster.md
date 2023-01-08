@@ -195,9 +195,9 @@ $ kubectl get services
 
 - Keep going!! You are almost done!!!
  
- ### Low balancing
+ ### Low balancing.
  
 You now, it is clear from the title.
 You will low balance apps between your cluster.
 
-- You need to deploy another app by a manifest file
+- You need to deploy another app by a manifest file.
