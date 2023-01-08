@@ -213,4 +213,4 @@ Here, we will use ingress, which is a DNS that will point to an application on y
 
 
 
-# CONGRATULATIONS!! Your Server Is Compleated!!
+> CONGRATUALTIONS!! Your Server Is Compleated!!
