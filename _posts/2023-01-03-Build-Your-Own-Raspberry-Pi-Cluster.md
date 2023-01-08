@@ -157,3 +157,30 @@ kubectl apply -f <filename>.yaml
 kubectl get pods
 ```
 > A pod is a [container](https://www.docker.com/resources/what-container/)
+
+- view wich raspberry pi is on via:
+```
+kubectl get pods -o wide
+``
+
+Now if you have just installed your first application on your cluster, ok, but if you want to access it you can't.
+
+Let's make sure we can access our app by the steps bellow.
+
+- you need another manifest file, his is an example of an ngin-x web server:
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: ngin-x_nodeport
+  namespace: default
+spec:
+  type: NodePort
+  selector:
+  	app: ngin-x
+  ports:
+  	name: web
+  	port: 80
+  	targetport: web
+  	nodeport: 31111
+```
