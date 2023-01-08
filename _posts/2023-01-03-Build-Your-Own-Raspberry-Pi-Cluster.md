@@ -148,7 +148,7 @@ In this step you will install your first applicaton on your raspberry pi cluster
 - Now you need a [manifest](https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4) file that describes the application you want to install.
 - Make sure the file extends with `.yaml`
 
--Then apply the manifest file by the command bellow:
+- Then apply the manifest fiel by the command bellow:
 ```
 kubectl apply -f <filename>.yaml
 ```
@@ -167,7 +167,7 @@ Now if you have just installed your first application on your cluster, ok, but i
 
 Let's make sure we can access our app by the steps bellow.
 
-- you need another manifest file, his is an example of an ngin-x web server:
+- you need another manifest file, this is an example of an ngin-x web server:
 ```
 apiVersion: v1
 kind: Service
