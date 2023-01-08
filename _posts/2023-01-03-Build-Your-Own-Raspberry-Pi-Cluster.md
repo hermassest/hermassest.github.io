@@ -126,4 +126,13 @@ $ rancherd reset-admin
 ### Adding your raspberry pies to our virtual server.
 
 - Click on the `add cluster` button.
-- Now choose the `other` button.
+- Now choose the `other` option.
+- Name your cluster and click on create.
+- Copy the third command and paste it in the terminal (if the command does not exicute, run it again) then go back to rancher and click `done`.
+- Now the clusters page should show.
+
+- Click on the little dots on the left side of your cluster, then click on `show API`.
+- Click on edit, and paste the following into the `agentImageOverride`
+```
+rancher/rancher-agent:v2.5.8-linux-arm64
+```
