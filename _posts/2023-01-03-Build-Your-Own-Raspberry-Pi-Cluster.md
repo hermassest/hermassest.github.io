@@ -159,10 +159,9 @@ kubectl get pods
 > A pod is a [container](https://www.docker.com/resources/what-container/)
 
 - view wich raspberry pi is on via:
-
 ```
 kubectl get pods -o wide
-``
+```
 
 Now if you have just installed your first application on your cluster, ok, but if you want to access it you can't.
 
