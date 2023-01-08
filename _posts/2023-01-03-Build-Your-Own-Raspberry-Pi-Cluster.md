@@ -145,7 +145,10 @@ rancher/rancher-agent:v2.5.8-linux-arm64
 In this step you will install your first applicaton on your raspberry pi cluster.
 
 - First thing first, go to the master node's terminal.
-- Now you need a `manifest` file that describes the application you want to install.
+- Now you need a [manifest](https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4) file that describes the application you want to install.
+- Make sure the file extends with `.yaml`
 
-> if you want to learn more visit:
-`https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4`
+-Then apply the manifest file by the command bellow:
+```
+kubectl apply -f <filename>.yaml
+```
