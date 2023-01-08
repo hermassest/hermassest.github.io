@@ -159,6 +159,7 @@ kubectl get pods
 > A pod is a [container](https://www.docker.com/resources/what-container/)
 
 - view wich raspberry pi is on via:
+
 ```
 kubectl get pods -o wide
 ``
