@@ -206,9 +206,9 @@ Here, we will use ingress, which is a DNS that will point to an application on y
 - Click on save.
 -Search for a file called `posts`.
 - Scroll till the end and add the following:
-
+`
 <the ip of any node> <your DNS >
-
+`
 - Save and close.
 
 
