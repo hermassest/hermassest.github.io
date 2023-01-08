@@ -196,6 +196,7 @@ $ kubectl get services
 - Keep going!! You are almost done!!!
  
  ### Low balancing
+ 
 You now, it is clear from the title.
 You will low balance apps between our cluster.
 
