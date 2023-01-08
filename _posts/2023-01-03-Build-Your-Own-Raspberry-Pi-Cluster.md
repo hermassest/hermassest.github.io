@@ -139,4 +139,12 @@ rancher/rancher-agent:v2.5.8-linux-arm64
 - Scroll till the end and click the `show request` button, scroll till the end and click `send request`.
 - Then click on `close` and close this tab.
 - Click on `explore` on the left of your cluster.
-- Woo-hoo! your server is added to the vertual machine
+- Yay! your server is added to the vertual machine.
+
+### Installing your first application.
+In this step you will install your first applicaton on your raspberry pi cluster.
+
+- First thing first, go to the master node's terminal.
+- Now you need a `manifest` file that describes the application you want to install.
+
+> if you want to learn more visit `https://medium.com/@yogitakothadia/a-manifest-file-in-kubernetes-952183a508d4`
