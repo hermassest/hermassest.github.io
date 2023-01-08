@@ -210,6 +210,3 @@ Here, we will use ingress, which is a DNS that will point to an application on y
 <the ip of any node> <your DNS >
 ```
 - Save and close.
-
-## _CONGRATUALTIONS, Your Server Is Compleated!!_
-> Please share with your family and friends!
